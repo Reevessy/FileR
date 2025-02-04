@@ -46,7 +46,7 @@ excel_sheet3 <- read_excel("./example.xlsx", sheet = "Test_3")
 
 # write excel file
 sheets <- list("Test_1_update" = excel_sheet1,
-               "Test_2_update" = excel_sheet2, 
+               "Test_2_update" = excel_sheet2,
                "Test_3_update" = excel_sheet3)
 write_xlsx(sheets, path = "./example_update.xlsx")
 
