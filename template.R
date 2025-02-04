@@ -18,7 +18,7 @@ write.table(csv, file = "./example_update.csv", sep = ",", row.names = FALSE)
 ################################################################################
 
 # read tsv file
-tsv <- read.table("./example.tsv", sep = "\t", header = TRUE, na.strings=c("","NA"))
+tsv <- read.table("./example.tsv", sep = "\t", header = TRUE, na.strings = c("","NA"))
 
 # process data in R
 
